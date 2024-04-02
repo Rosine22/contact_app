@@ -4,7 +4,7 @@ const router = express.Router()
 import contactController from '../controllers/contact.controller.js'
 import contactModel from '../models/contact.model.js'
 
-router.post('/create' , contactController.createContact)
+router.post('/createContact' , contactController.createContact)
 router.get('/all' , contactController.getAllContact)
 router.get('/:id' , contactController.getContact)
 router.put('/update/:id' , contactController.updateContact)
