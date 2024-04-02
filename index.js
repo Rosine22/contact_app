@@ -6,7 +6,6 @@ const app = express()
 import configuration from './configs/index.js'
 import mongoose from 'mongoose'
 import router from './routes/contact.routes.js'
-//import route from "./routes/contact.routes"
 const port = 3000
 
 app.use(express.json());
