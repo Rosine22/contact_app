@@ -82,7 +82,7 @@ const contactController = {
         catch (error) {
           res.status(500).json({
               message:"Error getting contact by email"
-          })
+          })  
         }
       },
       getContactByNumber:async(req,res)=>{
